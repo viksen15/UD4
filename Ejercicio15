@@ -1,0 +1,19 @@
+using System;
+
+namespace Ejercicio15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Inserta un numero");
+            double numero = Convert.ToInt32(Console.ReadLine());
+
+            if (numero%2 == 0)
+            { Console.WriteLine("El numero " + numero + " es divisible por 2"); }
+            else { Console.WriteLine("El numero  " + numero + " no es divisible por 2"); }
+
+        Console.ReadKey();
+        }
+    }
+}
