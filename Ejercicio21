@@ -1,0 +1,60 @@
+using System;
+
+namespace Ejercicio21
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Que dia de la semana es?");
+            string dia = Console.ReadLine();
+
+            switch (dia)
+            {
+                case "lunes":
+                case "martes":
+                case "miercoles":
+                case "jueves":
+                case "viernes":
+                    Console.WriteLine("Dia laboral");
+                    break;
+                case "sabado":
+                case "domingo":
+                    Console.WriteLine("Dia festivo");
+                    break;
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+using System;
+
+namespace Ejercicio21
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Que dia de la semana es?");
+            string dia = Console.ReadLine();
+
+            switch (dia)
+            {
+                case "lunes":
+                case "martes":
+                case "miercoles":
+                case "jueves":
+                case "viernes":
+                    Console.WriteLine("Dia laboral");
+                    break;
+                case "sabado":
+                case "domingo":
+                    Console.WriteLine("Dia festivo");
+                    break;
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
