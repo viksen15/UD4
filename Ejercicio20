@@ -1,0 +1,24 @@
+using System;
+
+namespace Ejercicio20
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Introduce un numero de ventas");
+            int numventas = Convert.ToInt32(Console.ReadLine());
+
+            double sumaventas = 0;
+            for (int i=0;i<numventas;i++)
+            { Console.WriteLine("Introduce el precio de la venta " + (i+1));
+                double precioventa = Double.Parse(Console.ReadLine());
+                sumaventas = precioventa + sumaventas;
+            }
+
+            Console.WriteLine("La suma de todas las ventas es " + sumaventas);
+
+            Console.ReadKey();
+        }
+    }
+}
