@@ -1,0 +1,16 @@
+using System;
+
+namespace Ejercicio7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int bucle;
+            for (bucle=1;bucle<=100;bucle++)
+            { Console.WriteLine(bucle);
+            }
+            Console.ReadKey();
+        }
+    }
+}
