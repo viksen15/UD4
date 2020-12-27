@@ -1,0 +1,26 @@
+using System;
+
+namespace Ejercicio6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Precio del producto");
+            double precio = Convert.ToInt32(Console.ReadLine());
+            precio = Math.Abs(precio);
+            Console.WriteLine("El precio del producto es: " + precio);
+            Console.WriteLine("1 Efectivo - 2 Tarjeta");
+            int metpago = Convert.ToInt32(Console.ReadLine());
+            switch (metpago)
+            { case 1: Console.WriteLine("Efectivo");break;
+                case 2: Console.WriteLine("Tarjeta. Escriba su numero de cuenta");break;
+                case 3: goto default;
+                default: Console.WriteLine("ERROR");break;
+            }
+            Console.ReadLine();
+
+            Console.ReadKey();
+        }
+    }
+}
