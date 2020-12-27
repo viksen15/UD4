@@ -1,0 +1,29 @@
+using System;
+
+namespace Ejercicio22
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string contraseña = "contra";
+            const int intentos = 3;
+            Boolean correcto = false;
+
+            string password;
+            for (int i=0;i<intentos && !correcto; i++)
+            {
+                Console.WriteLine("Introduce la contraseña");
+                password = Console.ReadLine();
+
+                if (password.Equals(contraseña))
+                {
+                    Console.WriteLine("Enhorabuena!");
+                    correcto = true;
+
+                }
+            }
+
+        }
+    }
+}
