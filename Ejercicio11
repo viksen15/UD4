@@ -1,0 +1,27 @@
+using System;
+
+namespace Ejercicio11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 5;
+            int num2 = 5;
+
+            if (num1<num2)
+            { Console.WriteLine("El " + num2 +" es mas grande que el " + num1); }
+            else
+            { if (num1>num2)
+                { Console.WriteLine("El " + num1 + " es mas grande que el " + num2); }
+                else
+                {
+                    if(num1==num2)
+                    { Console.WriteLine("Los dos numeros son iguales"); }
+                }
+            }
+            Console.ReadKey();
+
+        }
+    }
+}
