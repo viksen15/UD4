@@ -1,0 +1,26 @@
+using System;
+
+namespace Ejercicio4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+            Console.WriteLine("Escribe un numero");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Escribe otro numero");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            if (num1 > num2)
+            { Console.WriteLine("El numero más grande es " + num1); }
+            else
+            { Console.WriteLine("El numer más grande es " + num2); }
+
+            Console.ReadKey();
+        }
+    }
+}

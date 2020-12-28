@@ -1,0 +1,14 @@
+using System;
+
+namespace Ejercicio12
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string nombre = "Viksen";
+            Console.WriteLine("Bienvenido " + nombre);
+         Console.ReadKey();
+        }
+    }
+}

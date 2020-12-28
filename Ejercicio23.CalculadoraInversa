@@ -1,0 +1,36 @@
+using System;
+
+namespace Ejercicio23.CalculadoraInversa
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Operando 1");
+            int operando1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Signo aritmetico");
+            string signo = Console.ReadLine();
+            Console.WriteLine("Operando 2");
+            int operando2 = Convert.ToInt32(Console.ReadLine());
+            int resultado = 0;
+            switch (signo)
+            {
+                case "+": resultado = operando1 + operando2;
+                    break;
+                case "-": resultado = operando1 - operando2;
+                    break;
+                case "*": resultado = operando1 * operando2;
+                    break;
+                case "/": resultado = operando1 / operando2;
+                    break;
+                case "^": resultado = (int)Math.Pow(operando1, operando2);
+                    break;
+                case "%": resultado = operando1 % operando2;
+                    break;
+            }
+
+            Console.WriteLine(operando1 + signo + operando2 + " = " + resultado);
+            Console.ReadKey();
+        }
+    }
+}

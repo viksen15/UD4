@@ -1,0 +1,38 @@
+using System;
+
+namespace Ejercicio5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Escribe de 1 a 7 el dia de la semana que es");
+            int diasem = Convert.ToInt32(Console.ReadLine());
+
+            switch (diasem)
+            { case 1: Console.WriteLine("Es entre semana");
+                    break;
+                case 2: Console.WriteLine("Es entre semana");
+                    break;
+                case 3: Console.WriteLine("Es entre semana");
+                    break;
+                case 4:
+                    Console.WriteLine("Es entre semana");
+                    break;
+                case 5:
+                    Console.WriteLine("Es casi fin de semana");
+                    break;
+                case 6: Console.WriteLine("Es fin de semana");
+                    break;
+                case 7: Console.WriteLine("Es fin de semana");
+                    break;
+                case 8: goto default;
+                default: Console.WriteLine("ERROR");
+                    break;
+
+            }
+            Console.ReadKey();
+
+        }
+    }
+}

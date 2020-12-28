@@ -1,0 +1,19 @@
+using System;
+
+namespace Ejercicio9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int bucle;
+            for(bucle=1;bucle<=100;bucle++)
+            { if (bucle%2 == 0)
+                {
+                    Console.WriteLine(bucle);
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+}

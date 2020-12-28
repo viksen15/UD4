@@ -1,0 +1,18 @@
+using System;
+
+namespace Ejercicio16
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Inserte precio de producto");
+            decimal precio = Convert.ToDecimal(Console.ReadLine());
+            decimal iva = precio*0.21M;
+            decimal preciofinal = precio + iva;
+            Console.WriteLine("El 21% de iva del producto es " + iva);
+            Console.WriteLine("El precio del producto + iva es de = " + preciofinal);
+            Console.ReadKey();
+        }
+    }
+}

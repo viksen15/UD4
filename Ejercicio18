@@ -1,0 +1,18 @@
+using System;
+
+namespace Ejercicio18
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int bucle;
+            for (bucle = 1; bucle <= 100; bucle++)
+            {
+                Console.Write(bucle);
+                Console.Write("-");
+            }
+            Console.ReadKey();
+        }
+    }
+}

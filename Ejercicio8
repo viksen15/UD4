@@ -1,0 +1,17 @@
+using System;
+
+namespace Ejercicio8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int bucle = 1;
+            while (bucle<=100)
+            { Console.WriteLine(bucle);
+                bucle++;
+            }
+            Console.ReadKey();
+        }
+    }
+}
